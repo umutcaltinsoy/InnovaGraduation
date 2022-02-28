@@ -1,0 +1,20 @@
+version: '3'
+services:
+  service-registry:
+    image: service-registry:v1
+    ports:
+      - "8761:8761"
+
+  api-gateway:
+    image: api-gateway:v1
+    ports:
+      - "9191:9191"
+    links:
+      - service-registry
+    depends_on:
+      - service-registry
+    environment:
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://service-registry:8761/eureka/
+
+
+

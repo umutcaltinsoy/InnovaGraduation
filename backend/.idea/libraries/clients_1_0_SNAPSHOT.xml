@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="clients-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/feignclient/clients/1.0-SNAPSHOT/clients-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

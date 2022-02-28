@@ -1,0 +1,78 @@
+2022-02-28 09:12:44.591  INFO 17256 --- [restartedMain] c.p.c.CreditScoreMsApplication           : Starting CreditScoreMsApplication using Java 16.0.2 on DESKTOP-I650T47 with PID 17256 (C:\Users\Asus\Desktop\BootcampBankingProject\creditscorems\target\classes started by Asus in C:\Users\Asus\Desktop\BootcampBankingProject\creditscorems)
+2022-02-28 09:12:44.592  INFO 17256 --- [restartedMain] c.p.c.CreditScoreMsApplication           : No active profile set, falling back to default profiles: default
+2022-02-28 09:12:44.775  INFO 17256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-28 09:12:44.775  INFO 17256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-28 09:12:46.326  INFO 17256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-28 09:12:46.327  INFO 17256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-28 09:12:46.418  INFO 17256 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.patika.creditscorems.repository.CreditRepository. If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: javax.persistence.Entity, javax.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository.
+2022-02-28 09:12:46.419  INFO 17256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 0 JPA repository interfaces.
+2022-02-28 09:12:46.558  INFO 17256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-28 09:12:46.559  INFO 17256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-02-28 09:12:46.908  INFO 17256 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 348 ms. Found 1 MongoDB repository interfaces.
+2022-02-28 09:12:47.332  INFO 17256 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=55a5cd18-5722-3be1-ba52-25364f142ae3
+2022-02-28 09:12:49.171  INFO 17256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9002 (http)
+2022-02-28 09:12:49.205  INFO 17256 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-28 09:12:49.205  INFO 17256 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-28 09:12:49.554  INFO 17256 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-28 09:12:49.554  INFO 17256 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4778 ms
+2022-02-28 09:12:49.715  INFO 17256 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-28 09:12:50.343  INFO 17256 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-28 09:12:50.355  INFO 17256 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:a5f462c4-6d64-4e4c-963d-adc73e91850a'
+2022-02-28 09:12:50.585  INFO 17256 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-28 09:12:50.642  INFO 17256 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-28 09:12:51.252  INFO 17256 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-28 09:12:51.764  INFO 17256 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-28 09:12:53.076  INFO 17256 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-28 09:12:53.138  INFO 17256 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-28 09:12:53.583  INFO 17256 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-02-28 09:12:54.098  INFO 17256 --- [cluster-ClusterId{value='621c67e5dcef7d65903766ad', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:3}] to localhost:27017
+2022-02-28 09:12:54.098  INFO 17256 --- [cluster-rtt-ClusterId{value='621c67e5dcef7d65903766ad', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+2022-02-28 09:12:54.099  INFO 17256 --- [cluster-ClusterId{value='621c67e5dcef7d65903766ad', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=267396500}
+2022-02-28 09:12:54.368  WARN 17256 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-02-28 09:12:54.684  INFO 17256 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-02-28 09:12:54.796  WARN 17256 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-02-28 09:12:55.599  INFO 17256 --- [restartedMain] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:4}] to localhost:27017
+2022-02-28 09:12:56.501  WARN 17256 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-28 09:13:00.871  INFO 17256 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-02-28 09:13:01.262  WARN 17256 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-02-28 09:13:01.407  INFO 17256 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-02-28 09:13:01.632  INFO 17256 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-02-28 09:13:01.664  INFO 17256 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-28 09:13:01.816  INFO 17256 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-02-28 09:13:01.816  INFO 17256 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-02-28 09:13:01.816  INFO 17256 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-02-28 09:13:01.816  INFO 17256 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-02-28 09:13:01.817  INFO 17256 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-02-28 09:13:01.817  INFO 17256 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-02-28 09:13:01.817  INFO 17256 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-02-28 09:13:03.721  INFO 17256 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-02-28 09:13:03.735  INFO 17256 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-02-28 09:13:03.743  INFO 17256 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-02-28 09:13:03.784  INFO 17256 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1646028783760 with initial instances count: 1
+2022-02-28 09:13:03.787  INFO 17256 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CREDITSCOREMS with eureka with status UP
+2022-02-28 09:13:03.788  INFO 17256 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1646028783788, current=UP, previous=STARTING]
+2022-02-28 09:13:03.790  INFO 17256 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CREDITSCOREMS/host.docker.internal:CREDITSCOREMS:9002: registering service...
+2022-02-28 09:13:04.570  INFO 17256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9002 (http) with context path ''
+2022-02-28 09:13:04.571  INFO 17256 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9002
+2022-02-28 09:13:04.571  INFO 17256 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CREDITSCOREMS/host.docker.internal:CREDITSCOREMS:9002 - registration status: 204
+2022-02-28 09:13:04.914  INFO 17256 --- [restartedMain] c.p.c.CreditScoreMsApplication           : Started CreditScoreMsApplication in 22.414 seconds (JVM running for 26.781)
+2022-02-28 09:15:21.467  INFO 17256 --- [http-nio-9002-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-28 09:15:21.468  INFO 17256 --- [http-nio-9002-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-28 09:15:21.470  INFO 17256 --- [http-nio-9002-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-02-28 09:15:22.966  INFO 17256 --- [http-nio-9002-exec-7] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 212 ms
+2022-02-28 09:18:01.823  INFO 17256 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-28 09:23:01.831  INFO 17256 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-28 09:25:00.216  INFO 17256 --- [http-nio-9002-exec-1] c.p.c.controller.CreditScoreController   : Credit Score Request processing...CreditScoreRequest(identityNumber=36085214258, salary=4000)
+2022-02-28 09:25:00.640  INFO 17256 --- [http-nio-9002-exec-1] c.p.c.s.impl.CreditScoreServiceImpl      : Credit result sending via SMS...
+2022-02-28 09:25:02.889  INFO 17256 --- [http-nio-9002-exec-1] c.p.c.s.impl.CreditScoreServiceImpl      : Credit result sending...
+2022-02-28 09:27:38.710  INFO 17256 --- [http-nio-9002-exec-4] c.p.c.controller.CreditScoreController   : Credit Score Request processing...CreditScoreRequest(identityNumber=36098874145, salary=4000)
+2022-02-28 09:27:38.719  INFO 17256 --- [http-nio-9002-exec-4] c.p.c.s.impl.CreditScoreServiceImpl      : Credit result sending via SMS...
+2022-02-28 09:27:39.754  INFO 17256 --- [http-nio-9002-exec-4] c.p.c.s.impl.CreditScoreServiceImpl      : Credit result sending...
+2022-02-28 09:28:01.833  INFO 17256 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-28 09:28:15.938  INFO 17256 --- [http-nio-9002-exec-3] c.p.c.controller.CreditScoreController   : Credit Score Request processing...CreditScoreRequest(identityNumber=55555555555, salary=5420)
+2022-02-28 09:28:15.949  INFO 17256 --- [http-nio-9002-exec-3] c.p.c.s.impl.CreditScoreServiceImpl      : Credit result sending via SMS...
+2022-02-28 09:28:16.224  INFO 17256 --- [http-nio-9002-exec-3] c.p.c.s.impl.CreditScoreServiceImpl      : Credit result sending...
+2022-02-28 09:30:15.800  INFO 17256 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CREDITSCOREMS with eureka with status DOWN
+2022-02-28 09:30:15.801  INFO 17256 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1646029815801, current=DOWN, previous=UP]
+2022-02-28 09:30:15.802  INFO 17256 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CREDITSCOREMS/host.docker.internal:CREDITSCOREMS:9002: registering service...
+2022-02-28 09:30:15.811  INFO 17256 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CREDITSCOREMS/host.docker.internal:CREDITSCOREMS:9002 - registration status: 204

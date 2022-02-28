@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f29180f6-b981-47f1-a279-64d958d4f0e6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/credit.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/patika/creditscorems/service/SmsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/patika/creditscorems/service/impl/SmsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/patika/creditscorems/CreditScoreMsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/patika/creditscorems/CreditScoreMsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/patika/creditscorems/controller/CreditScoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/patika/creditscorems/controller/CreditScoreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/patika/creditscorems/model/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/patika/creditscorems/strategy/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/patika/creditscorems/model/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/patika/creditscorems/strategy/First.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/patika/creditscorems/model/Fourth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/patika/creditscorems/strategy/Fourth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/patika/creditscorems/model/Second.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/patika/creditscorems/strategy/Second.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/patika/creditscorems/model/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/patika/creditscorems/strategy/Strategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/patika/creditscorems/model/Third.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/patika/creditscorems/strategy/Third.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/patika/creditscorems/service/impl/CreditScoreServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/patika/creditscorems/service/impl/CreditScoreServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/patika/creditscorems/entity/Credit.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/application.properties" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/patika/creditscorems/controller/CreditScoreController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/patika/creditscorems/repository/CreditRepository.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/patika/creditscorems/service/impl/CreditScoreServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/patika/creditscorems/dto/response/CreditResponse.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="25OU9C4rdG5jcLlYjEH4cbx9Plx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sonhafta/hocapazar" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.11792453" />
+    <property name="settings.editor.selected.configurable" value="android.project.structure" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.CreditScoreMsApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreditScoreMsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="CreditScoreMS" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.patika.creditscorems.CreditScoreMsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="src/docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="sourceFilePath" value="src/docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="src/docker-compose.yaml.mongodb: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="mongodb" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="src/docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CreditScoreMsApplication" />
+        <item itemvalue="Docker.src/docker-compose.yaml: Compose Deployment" />
+        <item itemvalue="Docker.src/docker-compose.yaml.mongodb: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f29180f6-b981-47f1-a279-64d958d4f0e6" name="Changes" comment="" />
+      <created>1645397476843</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645397476843</updated>
+      <workItem from="1645397478256" duration="307000" />
+      <workItem from="1645397841502" duration="4512000" />
+      <workItem from="1645466057022" duration="17091000" />
+      <workItem from="1645487886885" duration="5316000" />
+      <workItem from="1645524869867" duration="2041000" />
+      <workItem from="1645531139084" duration="4190000" />
+      <workItem from="1645547973530" duration="28399000" />
+      <workItem from="1645613479692" duration="6556000" />
+      <workItem from="1645629848691" duration="19847000" />
+      <workItem from="1645700473741" duration="198000" />
+      <workItem from="1645701229862" duration="80000" />
+      <workItem from="1645711034033" duration="463000" />
+      <workItem from="1645711537415" duration="1291000" />
+      <workItem from="1645712906636" duration="1205000" />
+      <workItem from="1645714172364" duration="5074000" />
+      <workItem from="1645739427431" duration="600000" />
+      <workItem from="1645740935261" duration="55000" />
+      <workItem from="1645750826945" duration="7973000" />
+      <workItem from="1645788953205" duration="3099000" />
+      <workItem from="1645798461480" duration="18390000" />
+      <workItem from="1645890534410" duration="10882000" />
+      <workItem from="1645962519388" duration="18146000" />
+      <workItem from="1646027778255" duration="1992000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/patika/creditscorems/controller/CreditScoreController.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/patika/creditscorems/strategy/First.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
