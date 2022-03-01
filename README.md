@@ -1,8 +1,9 @@
 # Innova-Patika Graduation Project
 
 ### ATTENTION PLEASE !
-## TWILIO AUTH-TOKEN : Twilio API detected that my credentials were compromised and automatically revoked them to protect my account from unauthorized access. So when you send request it will throw an error. (com.twilio.exception.ApiException: Authenticate) Therefore, following the steps below will allow you to send requests without any exception.
-* InnovaGraduation/creditscorems/src/main/resources/application.properties
+## TWILIO AUTH-TOKEN : Twilio API detected that my credentials were compromised and automatically revoked them to protect my account from unauthorized access. So when you send request it will throw an error. (com.twilio.exception.ApiException: Authenticate)
+* `Therefore, following the steps below will allow you to send requests without any exception.`
+* `InnovaGraduation/creditscorems/src/main/resources/application.properties`
 * `Change the value (twilio.password)  with 0ae6a95bb09ed79998c3dddc7a456797 `
 
 ## Introduction
